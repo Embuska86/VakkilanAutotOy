@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="hero">
+        <img src="../Kuvat/Musta_kelta_logo.png" alt="Autovuokraamo Logo" class="logo">
+        <p>Autoja melkein joka lähtöön</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="pindex.html">Etusivu</a></li>
+            <li><a href="autot.html">Autot</a></li>
+            <li><a href="palvelut.html">Palvelut</a></li>
+            <li><a href="yhteystiedot.html">Yhteystiedot</a></li>
+            <li><a href="hinnasto.html">Hinnasto</a></li>
+            <li><a href="yrityksille.html">Yrityksille</a></li>
+            <li><a href="Englanniksi.html">In English</a></li>
+        </ul>
+    </nav>
+    
+    <img src="../Kuvat/Vuokraamonkuva.jpg" alt="Vasen reunakuva" class="blur-image left">
+    <img src="../Kuvat/Vuokraamonkuva.jpg" alt="Oikea reunakuva" class="blur-image right">
+
+    <p style="text-align: center;">Tietoa yrityksille tarjottavista palveluista</p>
+    <h2 style="text-align: center;">Yhteystiedot</h2>
+    <p style="text-align: center;"> 📞04039283748</p>
+    <p style="text-align: center;">✉️auto@gmail.com</p>
+    <p style="text-align: center;">📍Hietalanniementie 5, 35820 Mänttä-Vilppula</p>
+    
+    <div style="text-align: center;">
+        <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1872.9357684108902!2d24.64494687825917!3d62.00277259423123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468f66edd5872baf%3A0xb9e742e8b4c0d3fd!2sHietalanniementie%205%2C%2035820%20M%C3%A4ntt%C3%A4-Vilppula!5e0!3m2!1sfi!2sfi!4v1761848512419!5m2!1sfi!2sfi" referrerpolicy="no-referrer-when-downgrade" 
+        style="width: 80%; max-width: 400px; height: 250px; border: 0;"
+        allowfullscreen="" 
+        loading="lazy">
+    </iframe>
+</div>
+
+    <br><br>
+
+    <section id="contact">
+        <h2 style="text-align: center;">Ota yhteyttä:</h2>
+        <form action="emppukaro12@gmail.com" method="post" enctype="text/plain">
+            <label for="yritys">Yritys:</label><br>
+            <input type="text" id="yritys" name="yritys" required><br><br>
+
+            <label for="name">Nimi:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Sähköposti:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Viesti:</label><br>
+            <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+            <input type="submit" value="Lähetä">
+            <input type="reset" value="Tyhjennä">
+        </form>
+    </section>
+</body>
+</html>
