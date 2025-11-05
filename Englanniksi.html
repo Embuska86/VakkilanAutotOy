@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="hero">
+        <img src="../Kuvat/Musta_kelta_logo.png" alt="Autovuokraamo Logo" class="logo">
+        <p>Autoja melkein joka lähtöön</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="pindex.html">Etusivu</a></li>
+            <li><a href="autot.html">Autot</a></li>
+            <li><a href="palvelut.html">Palvelut</a></li>
+            <li><a href="yhteystiedot.html">Yhteystiedot</a></li>
+            <li><a href="hinnasto.html">Hinnasto</a></li>
+            <li><a href="yrityksille.html">Yrityksille</a></li>
+            <li><a href="Englanniksi.html">In English</a></li>
+        </ul>
+    </nav>
+    
+    <img src="../Kuvat/Vuokraamonkuva.jpg" alt="Vasen reunakuva" class="blur-image left">
+    <img src="../Kuvat/Vuokraamonkuva.jpg" alt="Oikea reunakuva" class="blur-image right">
+
+    <h1 style="text-align: center;">Car renting since 1975</h1>
+    <p style="text-align: center;">Cars:</p>
+    <br><br>
+
+    <div class="kuvarivi">
+        <figure>
+            <img src="../Kuvat/Opel_Movano_pakettiauto.jpg" alt="Kuva 1">
+            <figcaption>Opel Movano can, Can be driven with a B-licence<br>
+                Price from 40cents/km + 40€/day
+            </figcaption>
+        </figure>
+        <figure>
+            <img src="../Kuvat/Renault_Master_pakettiuto.jpg" alt="Kuva 2">
+            <figcaption>Renault Master van. Can be driven with a B-licence<br>
+                Price from 35 cent/km + 35€/day
+            </figcaption>
+        </figure>
+    </div>
+    
+    <div class="kuvarivi">
+        <figure>
+            <img src="../Kuvat/Mb_sprinter_bussi.jpg" alt="Kuva 1">
+            <figcaption>Mercedes-benz sprinter 9-seater minibus. Can be driven with a -licence<br>
+                Price from 35 cents/km + 35€/day
+            </figcaption>
+        </figure>
+        <figure>
+            <img src="../Kuvat/Wv_Caravelle_minibussi.jpg" alt="Kuva 2">
+            <figcaption>Volkswagen Caravelle 9-seater minibus. Can be driven with a -licence .<br>
+                Price from 35 cents/km + 35€/day
+            </figcaption>
+        </figure>
+    </div>
+    
+    <div class="kuvarivi">
+        <figure>
+            <img src="../Kuvat/Sininen_kia.jpg" alt="Kuva 1">
+            <figcaption>Kia Rio. Can be driven with a B-licence<br>
+                Price from 25cents/km + 25€/day
+            </figcaption>
+        </figure>
+        <figure>
+            <img src="../Kuvat/Mb_valkoinen_henkilöauto.jpg" alt="Kuva 2">
+            <figcaption>Mercedes-benz. Can be driven with a B-licence<br>
+                Price from 30cents/km + 30€/day
+            </figcaption>
+        </figure>
+    </div>
+
+    <div class="kuvarivi">
+        <figure>
+            <img src="../Kuvat/Mb_pakettiauto.jpg" alt="Kuva 1">
+            <figcaption>Mercedes-benz van. Can be driven with a B-licence<br>
+                Price from 35cents/km + 35€/day
+            </figcaption>
+        </figure>
+    </div>
+
+    <h1 style="text-align: center;">Contact information and location:</h1>
+    <p style="text-align: center;">📞<a href="tel:+358500616888"></a>0500616888</p>
+    <p style="text-align: center;">✉️vakaut@phpoint.fi</p>
+    <p style="text-align: center;">📍Hietalanniementie 5, 35820 Mänttä-Vilppula</p>
+    
+    <div style="text-align: center;">
+        <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1872.9357684108902!2d24.64494687825917!3d62.00277259423123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468f66edd5872baf%3A0xb9e742e8b4c0d3fd!2sHietalanniementie%205%2C%2035820%20M%C3%A4ntt%C3%A4-Vilppula!5e0!3m2!1sfi!2sfi!4v1761848512419!5m2!1sfi!2sfi"
+        style="width: 80%; max-width: 400px; height: 250px; border: 0;"
+        allowfullscreen
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+</div>
+    
+    <h2 style="text-align: center;">Contact us:</h2>
+    <form action="mailto:vakaut@phpoint.fi" method="post" enctype="text/plain">
+        <label for="nimi">Name:</label><br>
+        <input type="text" id="nimi" name="nimi" required><br><br>
+
+        <label for="email">E-mail:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="viesti">Message:</label><br>
+        <textarea id="viesti" name="viesti" rows="5" cols="40" required></textarea><br><br>
+
+        <input type="submit" value="Send">
+        <input type="reset" value="Clear">
+    </form>
+
+
+
+
+
+   
+    
+</body>
+</html>
